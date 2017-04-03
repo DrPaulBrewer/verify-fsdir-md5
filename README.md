@@ -79,6 +79,10 @@ Base64 representation of md5 was chosen to be compatible with Google Cloud Stora
 
 Mocha tests are included
 
+## Related Packages
+
+See my other package `npm: verify-bucket-md5` for a similar module that works with Google Cloud Storage.
+
 ## Copyright
 
 Copyright 2017 Paul Brewer, Economic and Financial Technology Consulting LLC <drpaulbrewer@eaftc.com>
