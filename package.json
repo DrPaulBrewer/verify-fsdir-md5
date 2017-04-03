@@ -1,0 +1,34 @@
+{
+  "name": "verify-fsdir-md5",
+  "version": "0.1.0",
+  "description": "Compare the md5 of files in a filesystem directory against an md5.json file also stored in the directory",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --slow 1000 --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drpaulbrewer/verify-fsdir-md5.git"
+  },
+  "keywords": [
+    "md5"
+  ],
+  "author": "drpaulbrewer@eaftc.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drpaulbrewer/verify-fsdir-md5/issues"
+  },
+  "homepage": "https://github.com/drpaulbrewer/verify-fsdir-md5#readme",
+  "devDependencies": {
+    "md5-base64": "0.0.3",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
+  },
+  "dependencies": {
+    "fs-readfile-promise": "^3.0.0",
+    "hasha": "^2.2.0"
+  }
+}
