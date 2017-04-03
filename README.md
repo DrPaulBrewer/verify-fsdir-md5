@@ -12,9 +12,9 @@ Unless fastfail is true, then throws the first error or md5 mismatch it sees.
 
 `true|false` is overall status
 
-`goodFileList` is an Array of 0 or more files where the md5 listed in md5.json matches the metadata md5 in Google Cloud Storage
+`goodFileList` is an Array of 0 or more files where the md5 listed in md5.json matches the md5 of current file contents
 
-`badFileList` is an Array of 0 or more files where the md5 listed in md5.json did not match the metadata md5 in Google Cloud Storage
+`badFileList` is an Array of 0 or more files where the md5 listed in md5.json did not match the md5 of current file contents
 
 `{file:err}` contains exceptions reported when trying to access the files listed in md5.json.  For instance, a file might not exist in the bucket.
 
