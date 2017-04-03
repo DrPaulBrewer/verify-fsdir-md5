@@ -1,4 +1,4 @@
-# verify-bucket-md5
+# verify-fsdir-md5
 
 [![Build Status](https://travis-ci.org/DrPaulBrewer/verify-fsdir-md5.svg?branch=master)](https://travis-ci.org/DrPaulBrewer/verify-fsdir-md5)
 
