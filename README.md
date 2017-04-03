@@ -26,6 +26,30 @@ Note that files that are not listed in the md5.json file will not be reported in
 
 An Error will be thrown if the md5.json file does not exist in the bucket at the specified path.
 
+The idea is to leave "md5.json" files in various locations and then check them later
+to see if there is a race condition or other file corruption.
+
+## Format of md5.json file
+
+Here is an example `md5.json` file:
+
+    {
+      "data.csv": "trzZQXBy/dyK6Mrjo9PcDw==",
+      "volume.csv": "oT2DqcLal2Q/jqa7v9OTlQ==",
+      "ohlc.csv": "ec4Iv4lqXi7zTYcPyDuurw==",
+      "trade.csv": "plBdOSkqnC1On6q/KmTJkQ==",
+      "profit.csv": "KErh65AGh1Rzze9DT1uDnw==",
+      "secrettradingstrategy.js": "SZC2JijuJoIds9mDH1ERMA=="
+    }
+
+Note that this is an object in JSON format.
+
+Each key indicates a filename in the current directory to check. 
+
+Each value is the base64 md5 hash of the file.
+
+Base64 representation of md5 was chosen to be compatible with Google Cloud Storage[tm], which keeps base64 md5's in metadata.
+
 ## Importing and Setup
 
     const verifyMD5 = require('verify-fsdir-md5');
@@ -63,3 +87,6 @@ Copyright 2017 Paul Brewer, Economic and Financial Technology Consulting LLC <dr
 
 The MIT License
 
+### Trademarks
+
+Google Cloud Storage[tm] is a trademark of Google, Inc.
