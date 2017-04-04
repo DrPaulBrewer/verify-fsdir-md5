@@ -99,7 +99,7 @@ function suite(){
 			status[2].should.deepEqual([file3,file2]);
 			assert.ok(typeof(status[3][file1])==='undefined');
 			assert.ok(typeof(status[3][file2])!=='undefined');
-			assert.ok((status[3][file2].name==="MD5FileVerificationError"));			  
+			assert.ok((status[3][file2].name==="FileVerificationError"));			  
 			assert.ok(typeof(status[3][file3])!=='undefined');
 		    })
 		   );
