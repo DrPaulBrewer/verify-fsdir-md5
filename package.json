@@ -24,12 +24,12 @@
   "homepage": "https://github.com/drpaulbrewer/verify-fsdir-md5#readme",
   "devDependencies": {
     "md5-base64": "0.0.3",
-    "mocha": "^3.2.0",
-    "should": "^11.2.1"
+    "mocha": "^4.0.1",
+    "should": "^13.1.2"
   },
   "dependencies": {
     "fs-readfile-promise": "^3.0.0",
-    "hasha": "^2.2.0",
+    "hasha": "^3.0.0",
     "verify-common-md5": "^0.1.7"
   }
 }
