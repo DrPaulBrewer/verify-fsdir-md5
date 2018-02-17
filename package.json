@@ -1,6 +1,6 @@
 {
   "name": "verify-fsdir-md5",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Compare the md5 of files in a filesystem directory against an md5.json file also stored in the directory",
   "main": "index.js",
   "directories": {
