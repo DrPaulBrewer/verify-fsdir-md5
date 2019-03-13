@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "fs-readfile-promise": "^3.0.0",
-    "hasha": "^3.0.0",
+    "hasha": "^4.0.1",
     "verify-common-md5": "^0.1.7"
   }
 }
