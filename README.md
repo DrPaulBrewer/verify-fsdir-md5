@@ -1,6 +1,6 @@
 # verify-fsdir-md5
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/DrPaulBrewer/verify-fsdir-md5.svg)](https://greenkeeper.io/)
+
 
 [![Build Status](https://travis-ci.org/DrPaulBrewer/verify-fsdir-md5.svg?branch=master)](https://travis-ci.org/DrPaulBrewer/verify-fsdir-md5)
 
